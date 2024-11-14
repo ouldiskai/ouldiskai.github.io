@@ -1,0 +1,617 @@
+    .moes{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.moestexto{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.moes img{
+    width: 80%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 90vh;
+    border: 1px solid #ccc;
+}
+
+.frente {
+    flex: 1;
+    position: relative;
+}
+
+.perguntas{
+    font-weight: bold;
+}
+
+.background-image {
+    background-image: url('agua\ bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 578px;
+    height: 1000px;
+}
+
+.tras{
+    flex: 1;
+    background-color: #d0dce6;
+    padding: 20px;
+}
+
+.content h2, .content h3 {
+    color: #333;  
+    margin-bottom: 10px;
+}
+
+.content p, .content ol, .content ul {
+    color: #576f9c;
+    line-height: 1.6;
+}
+
+.content ul, .content ol {
+    margin-left: 20px;
+}
+
+.content-image {
+    width: 30%; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content-image2 {
+    width: 40%; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.copo{
+    width: 30%;
+}
+
+.paragrafo2{
+    display: flex;
+}
+
+.paragrafo2 img{
+    width: 280px;
+}
+
+.paragrafocopo{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+
+.paragrafocopo img{
+    width: 200px;
+}
+
+.topico{
+    color: #2b2a2a;
+}
+
+.pretoclaro li, strong{
+    color: #333;
+}
+
+.quadrado1 {
+    width: 300px; 
+    height: 300px;
+    background-color: #6168be;  
+    color: white;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 610px;
+    left: 277px;
+    z-index: 1;
+}
+
+.quadrado2{
+    width: 577px; 
+    height: 300px;
+    background-color: #d0dce6;  
+    color: #333;        
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    top: 876px;
+    left: 0px;
+}
+.perguntas{
+    margin-top: -50px;
+}
+.language-switch {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.language-switch:hover {
+    background-color: #0056b3;
+}
+.bandeira{
+    width: 60px;
+}
+
+@media (max-width: 430px){
+    .background-image{
+        width: 575px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .tras{
+        width: 600px;
+        
+    }
+    .quadrado2{
+        width: 578px; 
+        height: 300px;
+        background-color: #d0dce6;  
+        color: #333;        
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        flex-direction: column;
+        top: 725px;
+        right: 100px;
+    }
+    .quadrado1 {
+        width: 300px; 
+        height: 300px;
+        background-color: #6168be;  
+        color: white;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 480px;
+        left: 278px;
+        z-index: 1;
+    }
+    .paragrafocopo{
+        flex-direction: row-reverse;
+    }
+    .paragrafocopo img{
+        width: 200px;
+        height: 200px;
+    }
+    .texto2{
+        font-size: 0.7em;
+    }
+    .container{
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        max-width: 1200px;
+        border: 1px solid #ccc;
+    }
+    .background-image{
+        width: 135%;
+    }
+    .tras{
+        width: 135%;
+    }
+}
+
+.ancoras {
+    display: inline-block;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;  
+    transition: transform 0.2s ease;
+    width: 1303px; 
+    height: 750px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+.ancoras {
+    display: inline-block;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;  
+    transition: transform 0.2s ease;
+    width: 1303px; 
+    height: 750px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+
+.ancoras12{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 200vh;
+
+    gap: 10vh;
+}
+.ancoras34{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+    width: 200vh;
+    
+}
+
+.ancoras {
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #1E1E1E;
+}
+.ancora{
+    background-image: url('arvores.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-decoration: none;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.ancoras {  
+    padding: 2.2vh 4.7vh;
+    text-align: center;
+    font-size: 6vh;  
+    transition: transform 0.2s ease;
+    width: 1223px; 
+    height: 750px; 
+    align-content: space-evenly;
+    font: 'Open Sans';
+    flex-direction: column;
+    margin: 1.2vh;
+    background-color: #092706;
+    
+}
+.ancoras12{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+.ancoras34{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+    
+}
+@media (max-width: 768px) {
+    .ancora {
+        width: 100%;
+        height: auto;
+    }
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #3DAF70;
+    padding: 1.1vh 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ecosave {
+    font-size: 4vh;
+    font-weight: bold;
+    color: white;
+}
+
+.logo1 {
+    width: 10vh;
+}
+
+.barras {
+    width: 4.7vh;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+}
+
+.intro {
+    font-family: "Gothic A1", sans-serif;
+}
+
+.background-image {
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.intro {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.ancoras {
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #092706;
+    gap: 20px;
+}
+
+.ancora {
+    background-image: url('arvores.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 300px;
+    height: 150px; 
+    transition: transform 0.2s ease;
+}
+
+.ancoras12, .ancoras34 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+.ancora:hover {
+    transform: scale(1.02);
+}
+
+#preservar {
+    background-image: url('madera.png');
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#preservar text {
+    color: white;
+}
+
+.content-section {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.preservarimg {
+    width: 96vh;
+    height: 70vh;
+    border-radius: 89px;
+    align-items: center;
+}
+
+#danificadas {
+    background-image: url(planta.png);
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    width: 100%;
+    height: 750px;
+    align-items: center;
+}
+
+#danificadas img {
+    width: 96vh;
+    height: 70vh;
+    border-radius: 89px;
+}
+
+#consequencias {
+    background-image: url(madera.png);
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10vh;
+}
+
+#consequencias img {
+    width: 96vh;
+    height: 70vh;
+    border-radius: 89px;
+}
+
+#doacoes {
+    background-image: url(planta.png);
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    gap: 6vh;
+}
+
+#doacoes img {
+    width: 96vh;
+    height: 70vh;
+    border-radius: 89px;
+}
+
+h2 {
+    font-family: "JetBrains Mono", monospace;
+}
+
+.istok {
+    font-family: "Istok Web", sans-serif;
+}
+
+.texpres {
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 600px;
+}
+
+.texdan {
+    align-items: center;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.texcon {
+    align-items: center;
+    width: 600px;
+}
+
+@media (max-width: 1024px) {
+    .ancora {
+        width: 45%;
+        height: 150px;
+    }
+
+    .preservarimg, #danificadas img, #consequencias img, #doacoes img {
+        width: 80vh;
+        height: 60vh;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ancora {
+        width: 100%;
+        height: 120px;
+    }
+
+    .preservarimg, #danificadas img, #consequencias img, #doacoes img {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ecosave {
+        font-size: 3vh;
+    }
+
+    .barras {
+        width: 6vh;
+    }
+
+    .ancora {
+        width: 100%;
+        height: 100px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/*<button class="chat-btn" id="chatBtn">💬 Chat</button>
+
+    <div class="chat-popup" id="chatPopup">
+        <div class="chat-header">
+            <h4>Eco I.A.</h4>
+            <button class="close-btn" id="closeBtn">&times;</button>
+        </div>
+        <div class="chat-body">
+            <div id="chatMessages"></div>
+            <input type="text" id="userMessage" placeholder="Digite uma mensagem...">
+            <button class="send-btn" id="sendBtn">Enviar</button>
+            <div class="chatMessages"></div>
+        </div>
+    </div>
+*/

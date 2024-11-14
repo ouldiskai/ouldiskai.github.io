@@ -1,0 +1,534 @@
+*
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #3DAF70;
+    padding: 1.1vh 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ecosave {
+    font-size: 4vh;
+    font-weight: bold;
+    color: white;
+}
+
+.logo1 {
+    width: 10vh;
+}
+
+.barras {
+    width: 6vh;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+    border-radius: 100%;
+}
+.intro{
+    font-family: "Gothic A1", sans-serif;
+}
+.background-image {
+    background-image: url('imagens/bg.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    z-index: 100;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 193vh;
+    height: 710px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.intro {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.ancoras {
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #092706;
+    gap: 20px;
+    z-index: 122;
+}
+
+
+.ancora {
+    background-image: url('imagens/arvores.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 300px;
+    height: 150px; 
+    transition: transform 0.2s ease;
+    z-index: 125; 
+    border-radius: 5vh;
+}
+
+
+.ancoras12, .ancoras34 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+@media (max-width: 768px) {
+    .ancora {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.ancora:hover {
+    transform: scale(1.02);
+}
+
+#preservar{
+    background-image: url('imagens/madera.png');
+    width: 193.1vh; 
+    height: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+#preservar img{
+    height: auto;
+    width: 43%;
+    border-radius: 16%;
+}
+
+#preservar text{
+    color: white;
+}
+
+
+.content-section {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.preservarimg{
+    width: 43%;
+    height: auto;
+    border-radius:  89px;
+    align-items: center;
+}
+
+#danificadas{
+    background-image: url(imagens/planta.png);
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    width: 193.1vh; 
+    height: 750px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#danificadas img{
+    width: 43%;
+    height: auto;
+    border-radius:  89px;
+}
+
+#consequencias{
+    background-image: url(imagens/madera.png);
+    width: 193.1vh; 
+    height: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10vh;
+    justify-content: space-evenly;
+}
+#consequencias img{
+    width: 43%;
+    height: auto;
+    border-radius:  16%;
+}
+
+#doacoes{
+    background-image: url(imagens/planta.png);
+    width: 193.1vh; 
+    height: 750px;
+    display: flex;
+    align-items: center;
+    gap: 6vh;
+    justify-content: space-evenly;
+}
+#doacoes img{
+    width: 43%;
+    height: auto;
+    border-radius:  89px;
+}
+.doacoes text{
+    width: 100px;
+}
+h2{
+    font-family: "JetBrains Mono", monospace;
+}
+.istok{
+    font-family: "Istok Web", sans-serif;
+}
+.texpres{
+    align-items: center;
+    width: 600px;
+}
+.texdan{
+    align-items: center;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.texcon{
+    align-items: center;
+    width: 600px;
+} 
+
+.time{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    background-color: rgb(7, 33, 7);
+    height: 100.1vh;
+
+}
+
+.fotos{
+    display: flex;
+    width: 1263px; 
+    height: 79vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    flex-wrap: wrap;
+    
+}
+.heloisa{
+    background-color: #000;
+    width: 34vh;
+    height: 45vh;
+    padding: 2px;
+    
+
+}
+.murilo{
+    background-color: #000;
+    width: 34vh;
+    height: 45vh;
+    flex-wrap: wrap;
+    padding: 2px;
+    
+
+}
+.ph{
+    background-color: #000;
+    width: 34vh;
+    height: 45vh;
+    flex-wrap: wrap;
+    padding: 2px;
+    
+
+}
+.tainara{
+    background-color: #000;
+    width: 34vh;
+    height: 45vh;
+    flex-wrap: wrap;
+    padding: 2px;
+    
+
+}
+
+
+@media (max-width: 1024px) {
+    .ancora {
+        width: 45%;
+        height: 150px;
+    }
+    .preservarimg, #danificadas img, #consequencias img, #doacoes img {
+        width: 80vh;
+        height: 60vh;
+    }
+
+    h2 {
+        font-size: 24px;
+        overflow-x: none;
+    }
+
+    p {
+        font-size: 16px;
+        overflow-x: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .ancora {
+        width: 100%;
+        height: 120px;
+    }
+
+    .preservarimg, #danificadas img, #consequencias img, #doacoes img {
+        width: 20%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+} 
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+        width: 50vh;
+    }
+    .preservarimg, #danificadas img, #consequencias img, #doacoes img {
+        display: none;
+    }
+    .ecosave {
+        font-size: 3vh;
+        overflow-x: none;
+    }
+    .barras {
+        width: 6vh;
+        overflow-x: none;
+    }
+    .ancora {
+        width: 100%;
+        height: 100px;
+        overflow-x: none;
+    }
+    h2 {
+        font-size: 20px;
+        overflow-x: none;
+    }
+    p {
+        font-size: 14px;
+        overflow-x: none;
+    }
+    .overlay{
+        width: 49.8vh;
+    }
+    .background-image{
+        width: 55.9vh;
+    }
+    #preservar{
+        width: 53.6vh;
+        height: 50vh;
+    }
+    #danificadas{
+        width: 53.6vh;
+        height: 50vh;
+    }
+    #consequencias{
+        width: 53.6vh;
+        height: 50vh;
+        
+    }
+    #doacoes{
+        width: 53.6vh;
+        height: 50vh;
+        
+    }
+    .texpres{
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+    .texdan{
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+    .texcon{
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+    .texdo{
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+}
+
+.chat-btn { 
+    position: fixed;
+    z-index: 124;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3DAF70;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.chat-popup {
+    display: none;
+    z-index: 124;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    border: 2px solid #3DAF70;
+    border-radius: 12px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #3DAF70;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chat-body {
+    padding: 10px;
+}
+
+#chatMessages {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 50px);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.send-btn {
+    background-color: #3DAF70;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 210px;
+    margin-top: 3px;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.ai-message {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.user-message {
+    background-color: #e0e0e0;
+    color: black;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.ia{
+    color: #3DAF70;
+}
+
+.doar{
+    background-color: #3daf70;
+    z-index: 125;
+    width: 9vh;
+    height: 0.5vh;
+    color: black;
+    display: flex;
+    padding: 10vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vh;
+}
+#texheloisa{
+    background-color: rgba(197  , 197, 197);
+    color:#000;
+    width: 34vh;
+    height: auto;
+    border-radius: 5px;
+}
+.acesse{
+    color: white;
+}
+.ponto{
+    color: #3DAF70;
+}
+.voltar{
+    background-color: #3DAF70;
+    width: 20px;
+    height: 10px;
+}
+.ongs{
+    height: 100px;
+    background-color: #000;
+}
